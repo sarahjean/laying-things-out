@@ -69,6 +69,7 @@ nodejs_npm_global_packages:
   - name: bower
   - name: gulp-cli
   - name: yarn
+  - name: npm
 nodejs_install_npm_user: "{{ drupalvm_user }}"
 npm_config_prefix: "/home/{{ drupalvm_user }}/.npm-global"
 installed_extras: [adminer, chrome, drush, mailhog, memcached, nodejs, solr, xdebug]

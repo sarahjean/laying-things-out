@@ -1,7 +1,7 @@
 project:
   machine_name: laying-things-out
-  prefix: BLT
-  human_name: 'BLTed 8'
+  prefix: LTO
+  human_name: 'Laying Things Out'
   profile:
     name: lightning
   local:
