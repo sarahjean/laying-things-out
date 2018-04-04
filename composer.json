@@ -18,6 +18,7 @@
     },
     "extra": {
         "enable-patching": true,
+        "patches": [],
         "installer-types": [
             "bower-asset",
             "npm-asset"
@@ -63,5 +64,8 @@
             "replace": false,
             "ignore-duplicates": true
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }

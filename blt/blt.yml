@@ -18,17 +18,17 @@ drush:
   default_alias: '${drush.aliases.local}'
 modules:
   local:
-    enable: [dblog, devel, views_ui]
-    uninstall: []
+    enable: [dblog, devel, views_ui, views_ui]
+    uninstall: {  }
   ci:
     enable: {  }
-    uninstall: []
+    uninstall: {  }
   dev:
-    enable: []
+    enable: {  }
     uninstall: {  }
   test:
-    enable: []
+    enable: {  }
     uninstall: [devel, views_ui]
   prod:
-    enable: []
+    enable: {  }
     uninstall: [devel, views_ui]
